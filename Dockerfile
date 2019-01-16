@@ -15,7 +15,7 @@
 
 # docker build -f Dockerfile -t kraal-example build/fatjar
 
-FROM findepi/graalvm:1.0.0-rc10-native AS build
+FROM findepi/graalvm:1.0.0-rc11-native AS build
 COPY example.jar .
 RUN native-image \
     --verbose \

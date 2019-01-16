@@ -1,6 +1,6 @@
 # Reproducer for GraalVM #774 #
 
-Reproduces [oracle/graal#774](https://github.com/oracle/graal/issues/774) with GraalVM RC9 and RC10; produces a working binary with GraalVM RC8.
+Reproduces [oracle/graal#774](https://github.com/oracle/graal/issues/774) with GraalVM RC9, RC10 and RC11; produces a working binary with GraalVM RC8.
 
 Based on the Kraal example project.
 
